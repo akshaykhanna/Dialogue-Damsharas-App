@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Score" />
+
+    <Button
+        android:id="@+id/bEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMovie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="Enter" />
+
+    <Button
+        android:id="@+id/bHint"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvMcode"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="26dp"
+        android:text="Hint" />
+
+    <EditText
+        android:id="@+id/etMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bHint"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/tvScore"
+        android:ems="10"
+        android:hint="Enter movie name" />
+
+    <Button
+        android:id="@+id/bSkip"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etMovie"
+        android:layout_alignRight="@+id/tvScore"
+        android:text="Skip" />
+
+    <TextView
+        android:id="@+id/tvMcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bEnter"
+        android:layout_below="@+id/tvDial"
+        android:layout_marginTop="53dp"
+        android:text="Movie"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvDial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvScore"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="31dp"
+        android:layout_toLeftOf="@+id/bEnter"
+        android:text="Dialouge"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

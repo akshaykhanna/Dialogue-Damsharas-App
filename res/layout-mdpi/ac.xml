@@ -1,0 +1,109 @@
+<LinearLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/bg2"
+    android:weightSum="100">
+
+
+
+<TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Score mdpi  "
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp" />
+
+<TextView
+    android:id="@+id/tvDial"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Aapke ghar mein cockroach aata hai toh aap kya karte hai Rathore Sahab? ... aap usko paalte nahi maarte hai"
+    android:textColor="#ffffff"
+    android:textSize="20dp" 
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"/>"
+
+  <TextView
+      android:id="@+id/tvMcode"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Text View" 
+      android:textColor="#ffffff"
+      android:layout_gravity="center"
+      android:textSize="23dp"
+      android:layout_marginTop="20dp"
+      android:layout_margin="10dp"/>
+  
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="20dp" >
+
+    <Button
+        android:id="@+id/bSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="56dp"
+        android:text="Skip" 
+  
+         android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id="@+id/bHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:text="Hint" 
+      
+         android:layout_marginRight="30dp"/>
+    
+
+    </RelativeLayout>
+
+    
+    
+
+
+    <EditText
+        android:id="@+id/etMovie"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:hint="Enter movie name"
+        android:layout_marginTop="30dp"
+       
+        android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    
+       ></EditText>
+ 
+ 
+   
+
+  <Button
+        android:id="@+id/bEnter"
+         android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter" 
+
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>    
